@@ -2,6 +2,20 @@ body{
     margin-top:20px;
     background:#fff;
 }
+
+h1 {
+    display: block;
+    font-family: alliance, sans-serif;
+    font-weight: 300!important;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -.01em;
+}
+
+.h1 {
+    font-size: 72px;
+}
+
 .border-base-color {
     border-color: #ef4135;
 }
@@ -24,13 +38,47 @@ body{
 .bg-white {
     background-color: #fff;
 }
+
+.hero {
+    background: #111416;
+    position: relative;
+    z-index: 1;
+    min-height: 466px;
+    padding: 120px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1264px;
+    -webkit-transition: max-width 1s cubic-bezier(.16,1,.3,1);
+    transition: max-width 1s cubic-bezier(.16,1,.3,1);
+}
+
+.text-gradient {
+    background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#ff6969 89.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .title-large {
     font-size: 1.75rem;
     line-height: 2.275rem;
 }
 .pricingbg{
     padding: 20px;
-    background: linear-gradient(to right, rgb(255, 208, 43) 0%, rgb(67, 188, 228) 100%);
+    background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#ff6969 89.95%);
 }
 .pricing-body{
     background: #eee;
@@ -52,13 +100,14 @@ body{
     line-height: 1.313rem;
 }
 .btn-buy {
-    background-color: rgb(72, 224, 164);
+    background-color: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#ff6969 89.95%);
 }
 .btn-buy a{
     font-weight: 700;
     font-size: 1rem;
-    color: #000;
+    color: #fff;
     text-decoration: none;
+    background-color: #111416;
 }
 .btn-buy a:hover{
     opacity: 0.5;
