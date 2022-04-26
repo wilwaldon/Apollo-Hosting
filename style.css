@@ -1,0 +1,65 @@
+body{
+    margin-top:20px;
+    background:#fff;
+}
+.border-base-color {
+    border-color: #ef4135;
+}
+
+.box-shadow {
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.05);
+}
+.border-extra-thick {
+    border-width: 4px;
+}
+.border-top {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.text-center {
+    text-align: center;
+}
+.border-top {
+    border-top: 1px solid #dee2e6;
+}
+.bg-white {
+    background-color: #fff;
+}
+.title-large {
+    font-size: 1.75rem;
+    line-height: 2.275rem;
+}
+.pricingbg{
+    padding: 20px;
+    background: linear-gradient(to right, rgb(255, 208, 43) 0%, rgb(67, 188, 228) 100%);
+}
+.pricing-body{
+    background: #eee;
+}
+.pricing .price .symbol {
+    bottom: 36px;
+    position: relative;
+}
+.title-medium {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+.title-extra-large-5 {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+.text-medium {
+    font-size: .875rem;
+    line-height: 1.313rem;
+}
+.btn-buy {
+    background-color: rgb(72, 224, 164);
+}
+.btn-buy a{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+}
+.btn-buy a:hover{
+    opacity: 0.5;
+}
